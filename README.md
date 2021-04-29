@@ -5,8 +5,11 @@
   - [:gear: Using this template](#gear-using-this-template)
     - [:package: Importing into Overleaf](#package-importing-into-overleaf)
     - [:pencil: Filling in the proposal](#pencil-filling-in-the-proposal)
-    - [:paperclip: Instructions for supporting attachments](#paperclip-instructions-for-supporting-attachments)
-    - [:money_with_wings: Instructions for budget](#money_with_wings-instructions-for-budget)
+  - [:floppy_disk: Other documents](#floppy_disk-other-documents)
+    - [:money_with_wings: Instructions for budget (required)](#money_with_wings-instructions-for-budget-required)
+    - [:woman_technologist: Applicant CV  - PI only (required)](#woman_technologist-applicant-cv----pi-only-required)
+  - [](#)
+    - [:paperclip: Instructions for supporting attachments (optional)](#paperclip-instructions-for-supporting-attachments-optional)
 
 ## :link: Useful links
 
@@ -41,11 +44,9 @@ The best way to use and share this template in a collaborative way is to import 
 
 If you need to add references add them to the `references.bib` file and uncomment the bibliography line in the `main_proposal.tex` document.
 
-### :paperclip: Instructions for supporting attachments
+## :floppy_disk: Other documents
 
-Upload in PDF format; attachments should be uploaded in a combined single PDF. Include up to three pages of additional information. This section can include figures, charts and tables, references for the proposal, or any additional material in support of the proposal (maximum of three pages). Uploading any additional information is completely optional and not required.
-
-### :money_with_wings: Instructions for budget
+### :money_with_wings: Instructions for budget (required)
 
 Upload in PDF format; budgets can be uploaded in a combined single PDF or one PDF for each software project (one page per software project maximum)
 
@@ -59,4 +60,13 @@ International grantees must use all grant funds exclusively for activities condu
 
 Application budgets must reflect the actual needs of the proposal. The Chan Zuckerberg Initiative will work closely with successful applicants to arrive at a mutually acceptable budget after review.
 
-:warning: For Quansight Labs folks: Tania and Ralf will be sharing the template with you.
+:warning: For Quansight Labs folks: Tania and Ralf will be sharing the budget template with you.
+
+### :woman_technologist: Applicant CV  - PI only (required)
+
+Upload in PDF format; include current and recent employment, education history, and references to any major publications, software contributions, or other relevant outputs (maximum of two pages)
+
+## 
+### :paperclip: Instructions for supporting attachments (optional)
+
+Upload in PDF format; attachments should be uploaded in a combined single PDF. Include up to three pages of additional information. This section can include figures, charts and tables, references for the proposal, or any additional material in support of the proposal (maximum of three pages). Uploading any additional information is completely optional and not required.
