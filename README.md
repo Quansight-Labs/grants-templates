@@ -20,11 +20,13 @@
 
 The best way to use and share this template in a collaborative way is to import it to Overleaf.
 
-1. Head to overleaf.com and login or create an account if needed
+1. Head to [overleaf.com](overleaf.com) and login or create an account if needed
 2. Click on the **New project** button on the top left corner
 3. Click on import from GitHub. Note you will need to link your Overleaf account to your GitHub account.
 4. Choose: `grants-templates` from the `Quansight Labs organisation`
 5. You should see the `main_proposal.tex` document open and compiled.
+
+:warning: If you want to keep your proposal in version control and sync with GitHub you need to fork this repo first and then follow the importing instructions above.
 
 ### :pencil: Filling in the proposal
 
