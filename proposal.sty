@@ -1,0 +1,77 @@
+\usepackage[T1]{fontenc}
+\pagestyle{plain}                 
+
+% Font related config
+\usepackage[utf8]{inputenc}
+\usepackage[defaultsans]{cantarell}
+\renewcommand*\familydefault{\sfdefault} 
+
+% Document margins and the such
+\RequirePackage[margin=2cm]{geometry}
+%EXACT 1in MARGINS 
+\setlength{\textwidth}{6.5in}     
+\setlength{\oddsidemargin}{0in}   
+\setlength{\evensidemargin}{0in}  
+\setlength{\textheight}{9in}      
+\setlength{\topmargin}{0in}       
+\setlength{\headheight}{0in}      
+\setlength{\headsep}{0in}         
+\setlength{\footskip}{.5in}   
+\parskip 1ex  % NOTE: non-default
+
+%---------------------------------------------------------------
+% Miscellaneous packages
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{titlesec}
+
+% Bullest lists spacing
+\usepackage{enumitem}
+\setlist{topsep=0pt,itemsep=-1ex,partopsep=1ex,parsep=1ex}
+
+
+% Hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,   
+    urlcolor=blue,
+}
+
+%---------------------------------------------------------------
+% Bibliography config
+% https://www.overleaf.com/learn/latex/Natbib_bibliography_styles
+\usepackage[numbers]{natbib}
+\bibliographystyle{unsrtnat}
+\setlength{\bibsep}{0.0pt}
+% References
+\renewcommand{\refname}{\hfil References\hfil}
+
+%---------------------------------------------------------------
+% Set up different captions
+\usepackage[font=small]{caption}
+\captionsetup[figure]{labelfont={it,bf},textfont=it}
+% Numbered sections
+\newcommand{\required}[1]{\section{#1}}  
+
+%---------------------------------------------------------------
+%----These packages are only needed for drafts-----%
+\usepackage{lipsum} % used for dummy text
+\usepackage[colorinlistoftodos,prependcaption,textsize=scriptsize]{todonotes}%to do list and comments
+\setuptodonotes{color=blue!30}
+\usepackage{soul}%highlighting etc
+\sethlcolor{pink}  
+%---------------------------------------------------------------
+% Left padded title
+\def\@maketitle{%
+    \newpage
+    \null
+    \noindent
+        {\LARGE \@title \par}%
+        \vskip 1em%
+        }
+
