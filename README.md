@@ -23,7 +23,7 @@
 
 The best way to use and share this template in a collaborative way is to import it to Overleaf.
 
-1. Head to [overleaf.com](overleaf.com) and login or create an account if needed
+1. Head to [overleaf.com](https://overleaf.com) and login or create an account if needed
 2. Click on the **New project** button on the top left corner
 3. Click on import from GitHub. Note you will need to link your Overleaf account to your GitHub account.
 4. Choose: `grants-templates` from the `Quansight Labs organisation`
